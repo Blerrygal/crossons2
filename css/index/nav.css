@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+}
+
+.navbar {
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav1 {
+  /* width: 100%; */
+  padding-bottom: 1px;
+  border-radius: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box1 {
+  /* align-items: center; */
+  flex-direction: row;
+  gap: 4px;
+  display: flex;
+}
+.box1 .phonetext > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.box2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  size: 32px;
+  font-weight: 700;
+}
+.nav1 .box3 {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  align-items: center;
+}
+.box3 .icons {
+  gap: 30px;
+}
+.languages {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.nav2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.nav2 .navlist {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  list-style-type: none;
+  color: #000;
+  border-top: 1px solid #ffffff;
+  padding-top: 21px;
+}
+.nav2 .navlist > li > a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  list-style: none;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.nav2 .navlist .navlist1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
