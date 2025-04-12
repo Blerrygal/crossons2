@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main3text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filling {
+  display: flex;
+  border: 1px solid #efefef;
+}

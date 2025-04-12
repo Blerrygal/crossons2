@@ -39,8 +39,18 @@
   align-items: center;
   flex-direction: row;
 }
+.herodiv .btn1 {
+  background-color: rgba(255, 196, 0, 0.959);
+  gap: 15px;
+  border: 0px;
+  text-align: center;
+  width: 220px;
+  height: 48px;
+  top: 671px;
+  left: 260px;
+}
 .hero1 .btn {
-  background-color: rgb(241, 167, 28);
+  background-color: #fcd900;
   display: flex;
   gap: 12px;
   border: 0px;
