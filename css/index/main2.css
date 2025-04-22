@@ -5,11 +5,27 @@
 }
 .main3text {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .filling {
   display: flex;
   border: 1px solid #efefef;
+}
+.whatwedo {
+  font-size: 35px;
+  font-weight: 400;
+}
+.filling,
+.solution,
+.software,
+.consultancy,
+.support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 220px;
+  height: 177px;
 }
